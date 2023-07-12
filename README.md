@@ -11,3 +11,15 @@ The Automatic Fare Generation System is designed to automate the process of calc
 - [x] Raspberry Pi 3 B+ as the hardware platform
 - [x] OpenCV-Python for computer vision tasks
 - [x] Ultrasound sensor for distance measurement
+
+#### Running the repository
+
+ *  Clone the repository
+       git clone https://github.com/Arayan-Kataria/Automatic-Fare-Generator-System-for-Parking-Lots.git
+ *  Install the necessary dependencies. Ensure you have Python 3.x and pip installed, then run the following command
+       pip install -r requirements.txt
+ *  Connect the ultrasound sensor and camera module to your Raspberry Pi 3 B+ as per the hardware documentation
+
+ *  To run the Automatic Fare Generation System, execute the following command:
+       python fare_generation.py
+
